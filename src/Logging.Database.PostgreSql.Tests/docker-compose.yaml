@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  tolitech.codegenerator.logging.database.postgres:
+    container_name: tolitech.codegenerator.logging.database.postgres
+    image: ${DOCKER_REGISTRY-}tolitech.codegenerator.logging.database.postgres
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "5432:5432"
