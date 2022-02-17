@@ -1,4 +1,4 @@
-# Logging.Database.PostgreSql
+# Tolitech.CodeGenerator.Logging.Database.PostgreSql
 Logging database PostgreSQL library used in projects created by the Code Generator tool. 
 
 This project contains the implementation and customization of classes for using the logging database provider with the PostgreSQL database. 
